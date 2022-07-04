@@ -1,0 +1,43 @@
+
+.blue {
+  color: blue;
+}
+
+.page {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.section {
+
+}
+
+.section-container {
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  padding: 5vw;
+}
+
+.right {
+  5vw;
+}
