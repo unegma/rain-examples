@@ -3,6 +3,16 @@
   color: blue;
 }
 
+.image-link {
+  display: block;
+  cursor: pointer;
+}
+
+
+.image-link:hover {
+  cursor: pointer;
+}
+
 .page {
   padding-top: 5vw;
   padding-bottom: 5vw;
