@@ -14,8 +14,8 @@
 }
 
 .page {
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -32,22 +32,28 @@ h1, h2, h3 {
 }
 
 .section {
-
+  margin-bottom: 2vw;
 }
 
 .section-container {
   /*text-align: center;*/
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: space-around;
   align-items: center;
   justify-content: center;
 }
 
+@media screen and (min-width: 850px) {
+  .section-container {
+    flex-direction: row;
+  }
+}
+
 .left {
-  padding: 5vw;
+  padding: 2vw 5vw;
 }
 
 .right {
-  padding: 5vw;
+  padding: 2vw 5vw;
 }
