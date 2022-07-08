@@ -57,3 +57,7 @@ h1, h2, h3 {
 .right {
   padding: 2vw 5vw;
 }
+
+.intro-link {
+  text-align: center;
+}
