@@ -76,3 +76,7 @@ h1, h2, h3 {
   color: black;
   width: 100%;
 }
+
+.intro-red {
+  color: red;
+}
