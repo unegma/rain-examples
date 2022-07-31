@@ -58,6 +58,21 @@ h1, h2, h3 {
   padding: 2vw 5vw;
 }
 
+.intro {
+  text-align: center;
+}
 .intro-link {
   text-align: center;
+}
+
+.intro-video {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hr {
+  color: black;
+  width: 100%;
 }
