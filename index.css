@@ -80,3 +80,7 @@ h1, h2, h3 {
 .intro-red {
   color: red;
 }
+
+.large-text {
+  font-size: 20px;
+}
